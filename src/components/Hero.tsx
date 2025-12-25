@@ -3,16 +3,17 @@ import headshot from '../assets/adam-headshot.jpg';
 
 const Hero: React.FC = () => {
     return (
-        <section className="py-12 md:py-16 px-8 bg-white w-full border-b border-gray-100">
+        <section className="py-12 md:py-16 px-8 bg-soft-pink w-full border-b border-gray-100">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
 
                 {/* Text Content - Left */}
                 <div className="flex-1 text-left order-2 md:order-1">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tighter text-black">Adam Line</h1>
-                    <div className="w-24 h-1 bg-soft-pink mb-6"></div>
+                    <div className="w-24 h-1 bg-black mb-6"></div>
                     <p className="text-lg md:text-xl text-dark-grey leading-relaxed font-medium max-w-xl">
-                        London-based theatre producer with experience in UK subsidised and commercial sectors.
-                        Currently Participation Manager for an arts charity.
+                        I'm a London-based theatre producer. I have experience in producing and general management
+                        within the UK subsidised & commercial theatre sectors. I currently work as participation
+                        manager for an arts charity.
                     </p>
                 </div>
 

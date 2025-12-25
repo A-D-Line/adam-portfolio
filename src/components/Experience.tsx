@@ -3,7 +3,7 @@ import experienceCollage from '../assets/experience-collage.png';
 
 const Experience: React.FC = () => {
     return (
-        <section className="py-24 px-8 bg-white w-full">
+        <section className="py-24 px-8 bg-soft-pink w-full">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
 
                 {/* Image - Left */}
@@ -12,16 +12,15 @@ const Experience: React.FC = () => {
                         <img
                             src={experienceCollage}
                             alt="Montage of theatre productions and logos"
-                            className="w-full rounded-lg shadow-xl"
+                            className="w-full rounded-lg"
                         />
                     </div>
-                    {/* Decorative element */}
-                    <div className="absolute top-4 -left-4 w-full h-full bg-soft-pink rounded-lg -z-0"></div>
+
                 </div>
 
                 {/* Text Content - Right */}
                 <div className="flex-1">
-                    <h2 className="text-3xl font-bold mb-8 text-black border-b-2 border-soft-pink pb-2 inline-block">Experience</h2>
+                    <h2 className="text-3xl font-bold mb-8 text-black border-b-2 border-black pb-2 inline-block">Experience</h2>
                     <p className="text-xl text-dark-grey leading-loose">
                         I have experience in producing and general management across a number of companies
                         including Theatre503, David Adkin Ltd, Spare Tyre Theatre Company, Smart Entertainment &
