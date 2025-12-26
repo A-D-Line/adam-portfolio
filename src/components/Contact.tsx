@@ -22,14 +22,13 @@ const Contact: React.FC = () => {
                 <p className="text-lg text-dark-grey text-center mb-12">
                     I work full time and I am not currently taking on any new projects.
                     <br /><br />
-                    You can find me on LinkedIn{' '}
+                    You contact me using the form below or find me on LinkedIn{' '}
                     <a
                         href="https://www.linkedin.com/in/adam-line-9688a624a/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <u>here</u>
-                         or use the form below
                     </a>.
                 </p>
 
