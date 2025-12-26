@@ -6,9 +6,9 @@ const Contact: React.FC = () => {
             <div className="max-w-xl mx-auto">
                 <h2 className="text-4xl font-bold mb-8 text-black text-center">Contact</h2>
 
-                <p className="text-xl text-dark-grey text-center mb-12">
-                    I work full time and I am not currently taking on any new projects. <br/>
-                    You can find me on <a href="https://www.linkedin.com/in/adam-line-9688a624a/">LinkedIn</a>.
+                <p className="text-lg text-dark-grey text-center mb-12">
+                    I work full time and I am not currently taking on any new projects. <br/><br/>
+                    You can find me on LinkedIn <a href="https://www.linkedin.com/in/adam-line-9688a624a/" target="_blank"><u>here</u></a>.
                 </p>
 
                 <div className="mt-16 text-sm text-dark-grey text-center opacity-60">
