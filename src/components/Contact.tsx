@@ -29,6 +29,7 @@ const Contact: React.FC = () => {
                         rel="noopener noreferrer"
                     >
                         <u>here</u>
+                        or use the form below
                     </a>.
                 </p>
 
