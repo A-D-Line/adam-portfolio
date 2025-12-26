@@ -11,7 +11,6 @@ const Contact: React.FC = () => {
                     You can find me on LinkedIn <a href="https://www.linkedin.com/in/adam-line-9688a624a/" target="_blank"><u>here</u></a>.
                 </p>
                 
-<div data-tf-live="01KDC35C886WXGBP17411ZWTK5"></div><script src="//embed.typeform.com/next/embed.js"></script>
                 
                 <div className="mt-16 text-sm text-dark-grey text-center opacity-60">
                     &copy; {new Date().getFullYear()} Adam Line. All rights reserved.
